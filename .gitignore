@@ -1,0 +1,11 @@
+# IDE
+.idea
+
+# env
+.nvmrc
+
+# libs
+node_modules
+
+# build
+/lib
