@@ -20,18 +20,18 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@hon2a/less-vars-to-js": "^0.0.8",
+    "@hon2a/less-vars-to-js": "^0.0.9",
     "@wisersolutions/eslint-config": "^1.0.3",
-    "@wisersolutions/eslint-formatter-idea": "^1.0.2",
+    "@wisersolutions/eslint-formatter-idea": "^1.0.3",
     "antd": "3.16.3",
     "babel-eslint": "^10.0.1",
     "chalk": "^2.4.2",
-    "eslint": "^5.6.0",
+    "eslint": "^5.16.0",
     "eslint-config-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react": "^7.13.0",
     "fs-extra": "^7.0.1",
     "less": "^3.9.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.17.1"
   },
   "dependencies": {}
 }
