@@ -2,5 +2,8 @@
   "extends": [
     "@wisersolutions",
     "@wisersolutions/eslint-config/jest"
-  ]
+  ],
+  "rules": {
+    "jest/no-deprecated-functions": 0
+  }
 }
