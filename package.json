@@ -24,7 +24,7 @@
     "@hon2a/less-vars-to-js": "^0.0.13",
     "@wisersolutions/eslint-config": "^2.0.1",
     "@wisersolutions/eslint-formatter-idea": "^1.0.7",
-    "antd": "3.26.11",
+    "antd": "3.26.12",
     "babel-eslint": "^10.1.0",
     "chalk": "^4.1.0",
     "eslint": "^7.20.0",
