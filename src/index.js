@@ -11,6 +11,7 @@ log(`Collecting Ant Design theme variables.`)
 
 loadAndResolveLessVars(resolve(__dirname, '../node_modules/antd/lib/style/themes/default.less'), {
   javascriptEnabled: true,
+  math: 'always'
 })
   .then((vars) => {
     log(`Writing theme variables into a file to be published.`)
