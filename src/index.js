@@ -13,13 +13,13 @@ loadAndResolveLessVars(resolve(__dirname, '../node_modules/antd/lib/style/themes
   javascriptEnabled: true,
   math: 'always'
 })
-  .then((vars) => {
+  .then(vars => {
     log(`Writing theme variables into a file to be published.`)
     outputFileSync(resolve(__dirname, '../lib/index.js'), `module.exports = ${JSON.stringify(vars, null, 2)}\n`)
     log(green('√ Done.'), `${Object.values(vars).length} theme variables exported.`)
     process.exit(0)
   })
-  .catch((error) => {
+  .catch(error => {
     log(red(error))
     process.exit(1)
   })
