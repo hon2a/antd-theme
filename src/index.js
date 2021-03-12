@@ -14,6 +14,7 @@ loadAndResolveLessVars(resolve(__dirname, '../node_modules/antd/lib/style/themes
   math: 'always'
 })
   .then(vars => {
+    if (!vars.functions) delete vars.functions
     log(`Writing theme variables into a file to be published.`)
     outputFileSync(resolve(__dirname, '../lib/index.js'), `module.exports = ${JSON.stringify(vars, null, 2)}\n`)
     log(green('√ Done.'), `${Object.values(vars).length} theme variables exported.`)
