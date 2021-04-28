@@ -20,16 +20,16 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@babel/runtime-corejs3": "^7.7.4",
+    "@babel/runtime-corejs3": "^7.13.17",
     "@hon2a/less-vars-to-js": "^0.1.0",
     "@wisersolutions/eslint-config": "^2.0.1",
     "@wisersolutions/eslint-formatter-idea": "^1.0.7",
-    "antd": "4.14.1",
+    "antd": "4.15.0",
     "babel-eslint": "^10.1.0",
-    "chalk": "^4.1.0",
-    "eslint": "^7.20.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-jest": "^24.1.5",
+    "chalk": "^4.1.1",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.3.6",
     "fs-extra": "^9.1.0",
     "less": "^4.1.1",
     "prettier": "^2.2.1"
