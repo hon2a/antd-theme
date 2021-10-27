@@ -1,6 +1,6 @@
 {
   "name": "@hon2a/antd-theme",
-  "version": "4.16.8",
+  "version": "4.16.9",
   "description": "Variables from Ant Design theme (Less) provided as JavaScript object",
   "repository": {
     "type": "git",
