@@ -26,6 +26,7 @@
     "@wisersolutions/eslint-formatter-idea": "^1.0.7",
     "antd": "4.15.6",
     "babel-eslint": "^10.1.0",
+    "core-js": "^3.19.0",
     "chalk": "^4.1.1",
     "eslint": "^7.25.0",
     "eslint-config-prettier": "^8.3.0",
